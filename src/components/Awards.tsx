@@ -21,6 +21,9 @@ export function Awards() {
               <div className="certificate-date">{award.date}</div>
               <h3>{award.title}</h3>
               <p>{award.organization}</p>
+              <a href={award.link} target="_blank" rel="noopener noreferrer">
+                View website
+              </a>
               <ul>{award.description.map((line) => <li key={line}>{line}</li>)}</ul>
             </div>
           </motion.article>

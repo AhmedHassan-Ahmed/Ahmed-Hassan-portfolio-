@@ -45,6 +45,7 @@ export type Award = {
   title: string;
   organization: string;
   date: string;
+  link: string;
   description: string[];
 };
 
