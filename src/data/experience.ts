@@ -24,7 +24,7 @@ export const experiences: Experience[] = [
   },
   {
     role: "Front-End React Trainee",
-    company: "Tech Mastery",
+    company: "TechMaster",
     type: "Internship",
     start: "Jun 2026",
     end: "Sep 2026",
