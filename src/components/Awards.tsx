@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Trophy } from "lucide-react";
+import { ExternalLink, Trophy } from "lucide-react";
 import { awards } from "../data/awards";
 import { Section } from "./Section";
 
@@ -16,15 +16,30 @@ export function Awards() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <div className="award-icon"><Trophy size={24} /></div>
+            <div className="award-icon">
+              <Trophy size={24} />
+            </div>
             <div>
               <div className="certificate-date">{award.date}</div>
               <h3>{award.title}</h3>
               <p>{award.organization}</p>
-              <a href={award.link} target="_blank" rel="noopener noreferrer">
-                View website
-              </a>
-              <ul>{award.description.map((line) => <li key={line}>{line}</li>)}</ul>
+              {award.link && (
+                <a
+                  className="inline-link"
+                  href={award.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View competition page for ${award.title}`}
+                >
+                  View Competition
+                  <ExternalLink size={14} />
+                </a>
+              )}
+              <ul>
+                {award.description.map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
             </div>
           </motion.article>
         ))}
