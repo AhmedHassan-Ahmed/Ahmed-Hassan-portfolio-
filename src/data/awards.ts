@@ -5,7 +5,7 @@ export const awards: Award[] = [
     title: "Business Website Development Competition",
     organization: "Sndian.com",
     date: "May 2026",
-    link: "https://www.sndian.com/competition/business-website-development",
+    link: "https://sndian.com/p/contests/business-website-2026",
     description: [
       "Designed and developed a responsive mental health business website focused on user experience and accessibility.",
       "Implemented custom UI enhancements, interactive animations, and responsive components using HTML, CSS, and JavaScript.",
