@@ -16,14 +16,19 @@ export type Experience = {
   skills: string[];
 };
 
-export type Project = {
+export type ProjectCategory = "frontend" | "backend";
+
+export interface Project {
   title: string;
-  category: string;
+  category: ProjectCategory;
   description: string;
   highlights: string[];
   technologies: string[];
-  links: Link[];
-};
+  links: {
+    label: string;
+    href: string;
+  }[];
+}
 
 export type CertificateCategory = "certifications" | "other";
 

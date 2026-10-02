@@ -1,11 +1,13 @@
 import type { Project } from "../types";
 
 export const projects: Project[] = [
+  // Frontend Projects
+
   {
     title: "LYNK – Freelance Marketplace Platform",
-    category: "Full-Stack / Marketplace",
+    category: "frontend",
     description:
-      "Modern freelance marketplace with Client, Freelancer, and Admin role-based experiences.",
+      "Modern freelance marketplace frontend with Client, Freelancer, and Admin role-based experiences.",
     highlights: [
       "Built reusable React components and role-based navigation for jobs, proposals, projects, profiles, messaging, notifications, and earnings.",
       "Integrated the frontend with Express.js APIs and implemented responsive user flows.",
@@ -20,18 +22,22 @@ export const projects: Project[] = [
       "Role-Based Access",
     ],
     links: [
-      { label: "Live Demo", href: "https://freelance-hub-sable.vercel.app/" },
+      {
+        label: "Live Demo",
+        href: "https://freelance-hub-sable.vercel.app/",
+      },
       {
         label: "GitHub",
         href: "https://github.com/AhmedHassan-Ahmed/Freelance-Hub",
       },
     ],
   },
+
   {
     title: "Restaurant Ordering Platform",
-    category: "Full-Stack / E-Commerce",
+    category: "frontend",
     description:
-      "Responsive restaurant ordering platform with reusable ordering UI, state management, authentication, and Express API integration.",
+      "Responsive restaurant ordering frontend with reusable ordering UI, state management, authentication, and Express API integration.",
     highlights: [
       "Built reusable components for restaurants, menus, cart, and ordering.",
       "Implemented Context API, authentication handling, protected flows, and Express.js API integration.",
@@ -54,13 +60,14 @@ export const projects: Project[] = [
       },
     ],
   },
+
   {
     title: "Clothes Shop – E-Commerce Website",
-    category: "Full-Stack / E-Commerce",
+    category: "frontend",
     description:
       "Responsive e-commerce frontend integrated with a Node.js backend for dynamic product data and CRUD workflows.",
     highlights: [
-      "Integrated frontend with Node.js backend APIs.",
+      "Integrated the frontend with Node.js backend APIs.",
       "Implemented frontend Create, Read, Update, and Delete product operations.",
     ],
     technologies: [
@@ -82,9 +89,110 @@ export const projects: Project[] = [
       },
     ],
   },
+
+  {
+    title: "Student Hub",
+    category: "frontend",
+    description:
+      "Responsive academic productivity website collaboratively built for tasks, notes, resources, and dashboard workflows.",
+    highlights: [
+      "Developed the Tasks and Notes pages, including task management, filtering, progress, CSV import/export, note organization, tags, and responsive UI.",
+      "Used Local Storage for data and packaged the completed website as an Android app with Capacitor.",
+    ],
+    technologies: [
+      "React.js",
+      "Vite",
+      "Tailwind CSS",
+      "React Router",
+      "Framer Motion",
+      "Local Storage",
+      "Capacitor",
+    ],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://student-hub-neon.vercel.app/",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/student-hub",
+      },
+    ],
+  },
+
+  {
+    title: "Education Platform",
+    category: "frontend",
+    description:
+      "Responsive education platform frontend integrated with a Laravel backend API.",
+    highlights: [
+      "Built reusable components for courses, educational content, and services.",
+      "Integrated the React frontend with Laravel backend APIs for application data.",
+    ],
+    technologies: [
+      "React.js",
+      "Laravel API Integration",
+      "REST APIs",
+      "HTML",
+      "CSS",
+    ],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://react-web-livid.vercel.app/",
+      },
+    ],
+  },
+
+  {
+    title: "AI Features Landing Page",
+    category: "frontend",
+    description:
+      "Responsive AI-focused landing page with interactive sections, page transitions, and animation.",
+    highlights: [
+      "Implemented smooth animations and page transitions.",
+      "Built reusable React components and optimized desktop, tablet, and mobile experiences.",
+    ],
+    technologies: ["React.js", "Framer Motion", "GSAP"],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://gen-ai-blond.vercel.app/",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/genAi",
+      },
+    ],
+  },
+
+  {
+    title: "PulseFit – Smartwatch Landing Page",
+    category: "frontend",
+    description:
+      "Responsive smartwatch product landing page with interactive navigation, animations, and pricing UI.",
+    highlights: [
+      "Implemented smooth scrolling, scroll-based animations, mobile navigation, and pricing plan switching.",
+      "Used DOM manipulation and event handling for interactive frontend behavior.",
+    ],
+    technologies: ["HTML5", "CSS3", "JavaScript", "DOM Manipulation"],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://ahmedhassan-ahmed.github.io/PluseFit/",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/PluseFit",
+      },
+    ],
+  },
+
+  // Backend Projects
+
   {
     title: "E-Commerce Backend Platform",
-    category: "Backend / Team Project",
+    category: "backend",
     description:
       "Collaborative multi-vendor e-commerce backend supporting Customer, Seller, and Admin roles.",
     highlights: [
@@ -109,9 +217,10 @@ export const projects: Project[] = [
       },
     ],
   },
+
   {
     title: "Job Board Backend Platform",
-    category: "Backend / Team Project",
+    category: "backend",
     description:
       "Collaborative job marketplace backend supporting Candidate, Employer, and Admin roles.",
     highlights: [
@@ -136,9 +245,10 @@ export const projects: Project[] = [
       },
     ],
   },
+
   {
     title: "Healthcare Appointment Booking Backend",
-    category: "Backend / Team Project",
+    category: "backend",
     description:
       "Collaborative healthcare appointment booking backend supporting Admin, Doctor, and Patient roles.",
     highlights: [
@@ -155,87 +265,10 @@ export const projects: Project[] = [
       "Queues",
       "Event Processing",
     ],
-    links: [{ label: "GitHub", href: "https://lnkd.in/eakhxV6Q" }],
-  },
-  {
-    title: "Student Hub",
-    category: "Frontend / Android",
-    description:
-      "Responsive academic productivity website collaboratively built for tasks, notes, resources, and dashboard workflows.",
-    highlights: [
-      "Developed the Tasks and Notes pages, including task management, filtering, progress, CSV import/export, note organization, tags, and responsive UI.",
-      "Used Local Storage for data and packaged the completed website as an Android app with Capacitor.",
-    ],
-    technologies: [
-      "React.js",
-      "Vite",
-      "Tailwind CSS",
-      "React Router",
-      "Framer Motion",
-      "Local Storage",
-      "Capacitor",
-    ],
     links: [
-      { label: "Live Demo", href: "https://student-hub-neon.vercel.app/" },
       {
         label: "GitHub",
-        href: "https://github.com/AhmedHassan-Ahmed/student-hub",
-      },
-    ],
-  },
-  {
-    title: "Education Platform",
-    category: "Frontend / API Integration",
-    description:
-      "Responsive education platform frontend integrated with a Laravel backend API.",
-    highlights: [
-      "Built reusable components for courses, educational content, and services.",
-      "Integrated the React frontend with Laravel backend APIs for application data.",
-    ],
-    technologies: [
-      "React.js",
-      "Laravel API Integration",
-      "REST APIs",
-      "HTML",
-      "CSS",
-    ],
-    links: [
-      { label: "Live Demo", href: "https://react-web-livid.vercel.app/" },
-    ],
-  },
-  {
-    title: "AI Features Landing Page",
-    category: "Frontend / Motion",
-    description:
-      "Responsive AI-focused landing page with interactive sections, page transitions, and animation.",
-    highlights: [
-      "Implemented smooth animations and page transitions.",
-      "Built reusable React components and optimized desktop, tablet, and mobile experiences.",
-    ],
-    technologies: ["React.js", "Framer Motion", "GSAP"],
-    links: [
-      { label: "Live Demo", href: "https://gen-ai-blond.vercel.app/" },
-      { label: "GitHub", href: "https://github.com/AhmedHassan-Ahmed/genAi" },
-    ],
-  },
-  {
-    title: "PulseFit – Smartwatch Landing Page",
-    category: "Frontend / JavaScript",
-    description:
-      "Responsive smartwatch product landing page with interactive navigation, animations, and pricing UI.",
-    highlights: [
-      "Implemented smooth scrolling, scroll-based animations, mobile navigation, and pricing plan switching.",
-      "Used DOM manipulation and event handling for interactive frontend behavior.",
-    ],
-    technologies: ["HTML5", "CSS3", "JavaScript", "DOM Manipulation"],
-    links: [
-      {
-        label: "Live Demo",
-        href: "https://ahmedhassan-ahmed.github.io/PluseFit/",
-      },
-      {
-        label: "GitHub",
-        href: "https://github.com/AhmedHassan-Ahmed/PluseFit",
+        href: "https://lnkd.in/eakhxV6Q",
       },
     ],
   },
