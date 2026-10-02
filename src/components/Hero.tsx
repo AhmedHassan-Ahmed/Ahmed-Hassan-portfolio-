@@ -20,12 +20,14 @@ export function Hero() {
           SOFTWARE ENGINEER · FULL-STACK DEVELOPER
         </div>
 
-        <h1 className="hero-reveal hero-name">Ahmed Hassan Ahmed</h1>
+        {/* Name */}
+        <h2 className="hero-reveal hero-name">Ahmed Hassan Ahmed</h2>
 
-        <h2 className="hero-reveal hero-title">
+        {/* Main headline */}
+        <h1 className="hero-reveal">
           Building digital products
           <span> from interface to API.</span>
-        </h2>
+        </h1>
 
         <p className="hero-reveal hero-summary">{profile.summary}</p>
 
