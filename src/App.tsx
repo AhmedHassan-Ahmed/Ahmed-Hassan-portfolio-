@@ -14,14 +14,23 @@ export default function App() {
 
   return (
     <>
-      <Navbar theme={theme} onToggleTheme={() => setTheme(theme === "dark" ? "light" : "dark")} />
+      <Navbar
+        theme={theme}
+        onToggleTheme={() => setTheme(theme === "dark" ? "light" : "dark")}
+      />
       <main>
         <Hero />
         <section id="about" className="about-strip container">
           <span>ABOUT</span>
           <p>
-            I combine software engineering fundamentals with hands-on frontend and backend experience,
-            building maintainable interfaces, API integrations, and database-backed systems.
+            Software Engineer and Full-Stack Developer with hands-on experience
+            across modern frontend development, backend API integration, and
+            team-based backend systems. Experienced in React.js, JavaScript,
+            Node.js, Express.js, Laravel API integration, MongoDB, REST APIs,
+            authentication, and responsive web development. Strong foundation in
+            software engineering, reusable architecture, state management,
+            databases, Git/GitHub, problem solving, data structures, and
+            algorithms.
           </p>
         </section>
         <Experience />
