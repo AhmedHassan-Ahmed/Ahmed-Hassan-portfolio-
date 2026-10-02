@@ -25,14 +25,16 @@ export type Project = {
   links: Link[];
 };
 
-export type Certificate = {
+export type CertificateCategory = "certifications" | "other";
+
+export interface Certificate {
   title: string;
   issuer: string;
   date: string;
-  credentialId?: string;
   skills: string[];
   link?: string;
-};
+  category: CertificateCategory;
+}
 
 export type Award = {
   title: string;
