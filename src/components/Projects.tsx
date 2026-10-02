@@ -96,7 +96,7 @@ export function Projects() {
 
       {backendProjects.length > 0 && (
         <div className="project-section">
-          <div className="subsection-heading">
+          <div className="subsection-heading spacer">
             <span>Backend Projects</span>
             <p>APIs, backend platforms, databases, and server-side systems</p>
           </div>

@@ -79,9 +79,9 @@ export function Certificates() {
 
       {otherCertificates.length > 0 && (
         <div className="certificate-section">
-          <div className="subsection-heading">
+          <div className="subsection-heading spacer">
             <span></span>
-            <span>Other Certificates & Training</span>
+            <span>Other Certificates</span>
             <p>Additional courses, training, and learning achievements</p>
           </div>
 

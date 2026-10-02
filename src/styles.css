@@ -390,7 +390,9 @@ a {
   color: var(--muted);
   font-size: 11px;
 }
-
+.spacer{
+  margin-top: 40px;
+}
 .about-strip {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
