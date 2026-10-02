@@ -2,6 +2,41 @@ import type { Certificate } from "../types";
 
 export const certificates: Certificate[] = [
   {
+    title: "ReactJS Foundations Course",
+    issuer: "ScholarHat",
+    date: "Jan 2026",
+    credentialId: "P9JB260126",
+    skills: ["React.js", "Frontend Development"],
+  },
+  {
+    title: "Developing Back-End Apps with Node.js and Express",
+    issuer: "IBM / Coursera",
+    date: "Jul 2026",
+    skills: ["Node.js", "Express.js", "Backend Development"],
+  },
+  {
+    title: "McKinsey Forward",
+    issuer: "McKinsey.org",
+    date: "Jun 2026",
+    skills: ["Professional Development", "Problem Solving"],
+  },
+  {
+    title: "AI in Project Management",
+    issuer: "LinkedIn Learning",
+    date: "Jun 2026",
+    skills: [
+      "Artificial Intelligence",
+      "Project Management",
+      "AI for Business",
+    ],
+  },
+  {
+    title: "Augment Your LLM Using RAG",
+    issuer: "NVIDIA DLI",
+    date: "2026",
+    skills: ["RAG Concepts", "Generative AI"],
+  },
+  {
     title: "Intro to AI and Gen AI for Nomu Al Ghurair TechUp Explorer",
     issuer: "Udacity",
     date: "28 Sep 2026",
@@ -13,36 +48,21 @@ export const certificates: Certificate[] = [
     date: "Aug 2026",
     skills: ["Prompt Engineering", "Generative AI"],
   },
-  {
-    title: "Developing Back-End Apps with Node.js and Express",
-    issuer: "IBM / Coursera",
-    date: "Jul 2026",
-    skills: ["Node.js", "Express.js", "Backend Development"],
-  },
+
   {
     title: "Gemini in Google Sheets",
     issuer: "LinkedIn Learning",
     date: "29 Jul 2026",
     skills: ["Generative AI", "AI Productivity"],
   },
-  {
-    title: "McKinsey Forward",
-    issuer: "McKinsey.org",
-    date: "Jun 2026",
-    skills: ["Professional Development", "Problem Solving"],
-  },
+
   {
     title: "Back-end Laravel Training Program",
     issuer: "HumaVolve",
     date: "Jun 2026",
     skills: ["Laravel", "PHP", "Backend Development"],
   },
-  {
-    title: "AI in Project Management",
-    issuer: "LinkedIn Learning",
-    date: "Jun 2026",
-    skills: ["Artificial Intelligence", "Project Management", "AI for Business"],
-  },
+
   {
     title: "AI Advanced",
     issuer: "AI Empower Yourself by MCIT / Microsoft",
@@ -73,19 +93,7 @@ export const certificates: Certificate[] = [
     date: "2026",
     skills: ["Generative AI", "AI Fundamentals"],
   },
-  {
-    title: "Augment Your LLM Using RAG",
-    issuer: "NVIDIA DLI",
-    date: "2026",
-    skills: ["RAG Concepts", "Generative AI"],
-  },
-  {
-    title: "ReactJS Foundations Course",
-    issuer: "ScholarHat",
-    date: "Jan 2026",
-    credentialId: "P9JB260126",
-    skills: ["React.js", "Frontend Development"],
-  },
+
   {
     title: "SQL Server Foundations Course",
     issuer: "ScholarHat",

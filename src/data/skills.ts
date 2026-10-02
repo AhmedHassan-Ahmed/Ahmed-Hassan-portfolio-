@@ -40,10 +40,22 @@ export const skillGroups: SkillGroup[] = [
   {
     title: "AI Foundations",
     skills: [
-      " Generative AI Fundamentals",
+      "Generative AI Fundamentals",
       "Prompt Engineering Fundamentals",
       "Introductory LLM Concepts",
       "Introductory RAG Concepts",
+    ],
+  },
+  {
+    title: "Soft Skills",
+    skills: [
+      "Problem Solving",
+      "Analytical Thinking",
+      "Team Leadership",
+      "Self-Learning",
+      "Communication Skills",
+      "Time Management",
+      "Adaptability",
     ],
   },
   {

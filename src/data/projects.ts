@@ -21,7 +21,10 @@ export const projects: Project[] = [
     ],
     links: [
       { label: "Live Demo", href: "https://freelance-hub-sable.vercel.app/" },
-      { label: "GitHub", href: "https://github.com/AhmedHassan-Ahmed/Freelance-Hub" },
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/Freelance-Hub",
+      },
     ],
   },
   {
@@ -41,8 +44,14 @@ export const projects: Project[] = [
       "Authentication",
     ],
     links: [
-      { label: "Live Demo", href: "https://restaurant-ordering-add.vercel.app/" },
-      { label: "GitHub", href: "https://github.com/AhmedHassan-Ahmed/restaurant-ordering-add" },
+      {
+        label: "Live Demo",
+        href: "https://restaurant-ordering-add.vercel.app/",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/restaurant-ordering-add",
+      },
     ],
   },
   {
@@ -63,8 +72,14 @@ export const projects: Project[] = [
       "React Router",
     ],
     links: [
-      { label: "Live Demo", href: "https://clothes-shop-topaz-eta.vercel.app/" },
-      { label: "GitHub", href: "https://github.com/AhmedHassan-Ahmed/clothes-shop" },
+      {
+        label: "Live Demo",
+        href: "https://clothes-shop-topaz-eta.vercel.app/",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/clothes-shop",
+      },
     ],
   },
   {
@@ -87,7 +102,12 @@ export const projects: Project[] = [
       "Cloudinary",
       "WebPush",
     ],
-    links: [],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/Elara_node",
+      },
+    ],
   },
   {
     title: "Job Board Backend Platform",
@@ -109,7 +129,12 @@ export const projects: Project[] = [
       "Cloudinary",
       "OneSignal",
     ],
-    links: [],
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/upwork_nodejs",
+      },
+    ],
   },
   {
     title: "Healthcare Appointment Booking Backend",
@@ -130,9 +155,7 @@ export const projects: Project[] = [
       "Queues",
       "Event Processing",
     ],
-    links: [
-      { label: "Project Reference", href: "https://lnkd.in/eakhxV6Q" },
-    ],
+    links: [{ label: "GitHub", href: "https://lnkd.in/eakhxV6Q" }],
   },
   {
     title: "Student Hub",
@@ -154,7 +177,10 @@ export const projects: Project[] = [
     ],
     links: [
       { label: "Live Demo", href: "https://student-hub-neon.vercel.app/" },
-      { label: "GitHub", href: "https://github.com/AhmedHassan-Ahmed/student-hub" },
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/student-hub",
+      },
     ],
   },
   {
@@ -203,8 +229,14 @@ export const projects: Project[] = [
     ],
     technologies: ["HTML5", "CSS3", "JavaScript", "DOM Manipulation"],
     links: [
-      { label: "Live Demo", href: "https://ahmedhassan-ahmed.github.io/PluseFit/" },
-      { label: "GitHub", href: "https://github.com/AhmedHassan-Ahmed/PluseFit" },
+      {
+        label: "Live Demo",
+        href: "https://ahmedhassan-ahmed.github.io/PluseFit/",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/AhmedHassan-Ahmed/PluseFit",
+      },
     ],
   },
 ];
