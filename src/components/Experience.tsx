@@ -4,7 +4,11 @@ import { Section } from "./Section";
 
 export function Experience() {
   return (
-    <Section id="experience" eyebrow="01 / EXPERIENCE" title="Where I’m building experience">
+    <Section
+      id="experience"
+      eyebrow="01 / EXPERIENCE"
+      title="Where I’m building experience"
+    >
       <div className="timeline">
         {experiences.map((item, index) => (
           <motion.article
@@ -15,14 +19,22 @@ export function Experience() {
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.55, delay: index * 0.05 }}
           >
-            <div className="timeline-dot" />
+            <div
+              className={`timeline-dot ${item.current ? "current" : "completed"}`}
+            />
             <div className="timeline-card">
-              <div className="timeline-meta">{item.start} — {item.current ? "Present" : item.end}</div>
+              <div className="timeline-meta">
+                {item.start} — {item.current ? "Present" : item.end}
+              </div>
               <h3>{item.role}</h3>
-              <p className="company">{item.company} · {item.type}</p>
+              <p className="company">
+                {item.company} · {item.type}
+              </p>
               <p>{item.description}</p>
               <div className="chip-row">
-                {item.skills.map((skill) => <span key={skill}>{skill}</span>)}
+                {item.skills.map((skill) => (
+                  <span key={skill}>{skill}</span>
+                ))}
               </div>
             </div>
           </motion.article>

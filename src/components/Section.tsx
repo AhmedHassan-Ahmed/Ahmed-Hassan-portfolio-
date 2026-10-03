@@ -18,7 +18,7 @@ export function Section({ id, eyebrow, title, children }: Props) {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.55 }}
       >
-        <span>{eyebrow}</span>
+        <span >{eyebrow}</span>
         <h2>{title}</h2>
       </motion.div>
       {children}

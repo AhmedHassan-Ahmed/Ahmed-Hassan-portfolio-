@@ -21,7 +21,7 @@ export default function App() {
       <main>
         <Hero />
         <section id="about" className="about-strip container">
-          <span>ABOUT</span>
+          <span className="section-heading-about">ABOUT</span>
           <p>
             Software Engineer and Full-Stack Developer with hands-on experience
             across modern frontend development, backend API integration, and

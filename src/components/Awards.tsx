@@ -5,7 +5,7 @@ import { Section } from "./Section";
 
 export function Awards() {
   return (
-    <Section id="awards" eyebrow="05 / ACHIEVEMENT" title="Recognition">
+    <Section id="awards" eyebrow="05 / ACHIEVEMENT" title="ACHIEVEMENT">
       <div className="awards-list">
         {awards.map((award) => (
           <motion.article

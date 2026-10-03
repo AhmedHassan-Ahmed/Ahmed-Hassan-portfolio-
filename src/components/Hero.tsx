@@ -42,12 +42,12 @@ export function Hero() {
 
           <a
             className="button ghost"
-            href={profile.whatsapp}
+            href={profile.linkedin}
             target="_blank"
             rel="noreferrer"
           >
             <MessageCircle size={17} />
-            WhatsApp me
+            LinkedIn
           </a>
         </div>
 
@@ -69,36 +69,70 @@ export function Hero() {
         </div>
       </div>
 
-      <motion.div
-        className="hero-card"
-        initial={{ opacity: 0, scale: 0.92, rotate: 2 }}
-        animate={{ opacity: 1, scale: 1, rotate: 0 }}
-        transition={{ duration: 0.8, delay: 0.25 }}
-      >
-        <div className="orb orb-one" />
-        <div className="orb orb-two" />
+     <motion.div
+  className="hero-card hero-visual"
+  initial={{ opacity: 0, scale: 0.9, y: 20 }}
+  animate={{ opacity: 1, scale: 1, y: 0 }}
+  transition={{ duration: 0.9, delay: 0.2 }}
+>
+  <div className="hero-glow" />
 
-        <div className="terminal">
-          <div className="terminal-top">
-            <i />
-            <i />
-            <i />
-            <span>ahmed@portfolio:~</span>
-          </div>
+  <motion.div
+    className="hero-sphere"
+    animate={{
+      y: [-8, 8, -8],
+      rotate: [0, 360],
+    }}
+    transition={{
+      y: {
+        duration: 4,
+        repeat: Infinity,
+        ease: "easeInOut",
+      },
+      rotate: {
+        duration: 20,
+        repeat: Infinity,
+        ease: "linear",
+      },
+    }}
+  >
+    <div className="sphere-light" />
+  </motion.div>
 
-          <pre>{`const engineer = {
-  role: "Software Engineer",
-  stack: ["React", "Node.js", "TypeScript"],
-  focus: "Full-Stack Development",
-  status: "building 🚀"
-};`}</pre>
-        </div>
+  <motion.div
+    className="hero-ring ring-1"
+    animate={{ rotate: 360 }}
+    transition={{
+      duration: 12,
+      repeat: Infinity,
+      ease: "linear",
+    }}
+  />
 
-        <div className="hero-stat">
-          <strong>Full-Stack</strong>
-          <span>Frontend + Backend + APIs</span>
-        </div>
-      </motion.div>
+  <motion.div
+    className="hero-ring ring-2"
+    animate={{ rotate: -360 }}
+    transition={{
+      duration: 16,
+      repeat: Infinity,
+      ease: "linear",
+    }}
+  />
+
+  <motion.div
+    className="hero-ring ring-3"
+    animate={{ rotate: 360 }}
+    transition={{
+      duration: 22,
+      repeat: Infinity,
+      ease: "linear",
+    }}
+  />
+
+  <div className="hero-dot dot-1" />
+  <div className="hero-dot dot-2" />
+  <div className="hero-dot dot-3" />
+</motion.div>
     </section>
   );
 }
