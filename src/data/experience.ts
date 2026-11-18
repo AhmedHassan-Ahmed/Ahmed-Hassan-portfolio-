@@ -8,7 +8,6 @@ export const experiences: Experience[] = [
     start: "Jul 2026",
     end: "Nov 2026",
     location: "Remote",
-    current: true,
     description:
       "Participating in a Backend Node.js internship focused on backend development, REST APIs, databases, authentication, integrations, and team-based software projects.",
     skills: [
