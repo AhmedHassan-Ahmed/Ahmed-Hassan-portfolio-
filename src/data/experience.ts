@@ -6,7 +6,7 @@ export const experiences: Experience[] = [
     company: "Tech Mastery",
     type: "Internship",
     start: "Jul 2026",
-    end: "Present",
+    end: "Nov 2026",
     location: "Remote",
     current: true,
     description:
